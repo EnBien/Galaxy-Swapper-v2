@@ -1,0 +1,58 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+p{
+  font-family: cursive;
+}
+
+a{
+  font-family: cursive;
+  font-size: 85%;
+}
+
+.button-container {
+  margin-bottom: 20px; /* Marge en bas pour séparer le bouton de l'image */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: 2px solid #00f;
+  box-shadow: 0 0 10px #00f; /* Ombre portée */
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #00f;
+  color: #000;
+}
+
+.image-container {
+  margin-top: 20px; /* Marge au-dessus de l'image */
+}
+
+img {
+  width: 700px; /* Ajustez la largeur selon vos besoins */
+  height: auto; /* Pour conserver les proportions de l'image */
+  display: block; /* Pour placer l'image sur une nouvelle ligne */
+  margin: 0 auto 10px; /* Pour centrer l'image horizontalement avec une marge en bas */
+  cursor: pointer;
+}
+
+.image-container p {
+  margin: 0; /* Supprimer la marge par défaut du paragraphe */
+}
